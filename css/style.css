@@ -1,0 +1,56 @@
+body, header, footer, article, aside, ul, li, p, h1, h2 {
+    background-color: lightgray;
+    font-family: 'Open Sans', sans-serif;
+
+}
+header {
+    display: flex;
+    height: 3rem;
+    align-items: center;
+}
+
+header img {
+    width: 450px;
+    height: 175px;
+    margin-top: 1rem;
+}
+
+header ul li {
+    display: inline;
+    padding: 1rem;
+}
+#main-content{
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    flex: 3;
+    border: 1px blue solid;
+    margin: 1rem;
+}
+
+aside {
+    flex: 1;
+    background-color: gray;
+    border: 1px red solid;
+    margin: 1rem;
+}
+
+aside ul {
+    background-color: grey;
+}
+
+aside ul li {
+    background-color: grey;
+    list-style-type: none;
+}
+
+footer {
+    clear: all;
+}
+
+img {
+    border: red 1px;
+}
+
